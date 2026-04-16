@@ -16,5 +16,25 @@ namespace EscapeRoom
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void lblIntroduction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStartGame_Click(object sender, EventArgs e)
+        {        
+            //manda  a llamar el nombre del jugador y luego abre el formulario del escritorio
+            GameState.Instance.NombreJugador = txtEnterName.Text.Trim();
+            FormGame frm = new FormGame();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+
+        }
     }
 }

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             pnlHigher = new Panel();
-            pnlLower = new Panel();
-            lblTittle = new Label();
-            lblSubtittle = new Label();
             lblAutor = new Label();
-            lblEnterName = new Label();
-            txtEnterName = new TextBox();
-            btnStart = new Button();
+            lblSubtittle = new Label();
+            lblTittle = new Label();
+            pnlLower = new Panel();
             btnStatistics = new Button();
+            btnStart = new Button();
+            txtEnterName = new TextBox();
+            lblEnterName = new Label();
             pnlHigher.SuspendLayout();
             pnlLower.SuspendLayout();
             SuspendLayout();
@@ -51,6 +51,33 @@
             pnlHigher.Size = new Size(458, 105);
             pnlHigher.TabIndex = 0;
             // 
+            // lblAutor
+            // 
+            lblAutor.AutoSize = true;
+            lblAutor.Location = new Point(149, 63);
+            lblAutor.Name = "lblAutor";
+            lblAutor.Size = new Size(166, 20);
+            lblAutor.TabIndex = 4;
+            lblAutor.Text = "Created by Leslie Romo";
+            // 
+            // lblSubtittle
+            // 
+            lblSubtittle.AutoSize = true;
+            lblSubtittle.Location = new Point(189, 43);
+            lblSubtittle.Name = "lblSubtittle";
+            lblSubtittle.Size = new Size(87, 20);
+            lblSubtittle.TabIndex = 3;
+            lblSubtittle.Text = "SIMULATOR";
+            // 
+            // lblTittle
+            // 
+            lblTittle.AutoSize = true;
+            lblTittle.Location = new Point(180, 23);
+            lblTittle.Name = "lblTittle";
+            lblTittle.Size = new Size(108, 20);
+            lblTittle.TabIndex = 2;
+            lblTittle.Text = "ESCAPE ROOM";
+            // 
             // pnlLower
             // 
             pnlLower.Controls.Add(btnStatistics);
@@ -62,49 +89,14 @@
             pnlLower.Size = new Size(458, 206);
             pnlLower.TabIndex = 1;
             // 
-            // lblTittle
+            // btnStatistics
             // 
-            lblTittle.AutoSize = true;
-            lblTittle.Location = new Point(199, 15);
-            lblTittle.Name = "lblTittle";
-            lblTittle.Size = new Size(108, 20);
-            lblTittle.TabIndex = 2;
-            lblTittle.Text = "ESCAPE ROOM";
-            // 
-            // lblSubtittle
-            // 
-            lblSubtittle.AutoSize = true;
-            lblSubtittle.Location = new Point(199, 40);
-            lblSubtittle.Name = "lblSubtittle";
-            lblSubtittle.Size = new Size(87, 20);
-            lblSubtittle.TabIndex = 3;
-            lblSubtittle.Text = "SIMULATOR";
-            // 
-            // lblAutor
-            // 
-            lblAutor.AutoSize = true;
-            lblAutor.Location = new Point(199, 66);
-            lblAutor.Name = "lblAutor";
-            lblAutor.Size = new Size(166, 20);
-            lblAutor.TabIndex = 4;
-            lblAutor.Text = "Created by Leslie Romo";
-            // 
-            // lblEnterName
-            // 
-            lblEnterName.AutoSize = true;
-            lblEnterName.Location = new Point(163, 33);
-            lblEnterName.Name = "lblEnterName";
-            lblEnterName.Size = new Size(133, 20);
-            lblEnterName.TabIndex = 5;
-            lblEnterName.Text = "Ingresa tu nombre:";
-            // 
-            // txtEnterName
-            // 
-            txtEnterName.BorderStyle = BorderStyle.None;
-            txtEnterName.Location = new Point(163, 65);
-            txtEnterName.Name = "txtEnterName";
-            txtEnterName.Size = new Size(125, 20);
-            txtEnterName.TabIndex = 6;
+            btnStatistics.Location = new Point(163, 126);
+            btnStatistics.Name = "btnStatistics";
+            btnStatistics.Size = new Size(123, 29);
+            btnStatistics.TabIndex = 7;
+            btnStatistics.Text = "ESADÍSTICAS";
+            btnStatistics.UseVisualStyleBackColor = true;
             // 
             // btnStart
             // 
@@ -115,14 +107,22 @@
             btnStart.Text = "INICIAR";
             btnStart.UseVisualStyleBackColor = true;
             // 
-            // btnStatistics
+            // txtEnterName
             // 
-            btnStatistics.Location = new Point(163, 126);
-            btnStatistics.Name = "btnStatistics";
-            btnStatistics.Size = new Size(123, 29);
-            btnStatistics.TabIndex = 7;
-            btnStatistics.Text = "ESADÍSTICAS";
-            btnStatistics.UseVisualStyleBackColor = true;
+            txtEnterName.BorderStyle = BorderStyle.None;
+            txtEnterName.Location = new Point(163, 65);
+            txtEnterName.Name = "txtEnterName";
+            txtEnterName.Size = new Size(125, 20);
+            txtEnterName.TabIndex = 6;
+            // 
+            // lblEnterName
+            // 
+            lblEnterName.AutoSize = true;
+            lblEnterName.Location = new Point(163, 33);
+            lblEnterName.Name = "lblEnterName";
+            lblEnterName.Size = new Size(133, 20);
+            lblEnterName.TabIndex = 5;
+            lblEnterName.Text = "Ingresa tu nombre:";
             // 
             // FormSignUp
             // 

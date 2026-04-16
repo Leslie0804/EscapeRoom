@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblInstructions.Text" xml:space="preserve">
+    <value>- V Tienes 3 vidas. Cada respuesta
+incorrecta te cuesta una.
+
+- P Puedes pedir hasta 3 pistas
+por pregunta. Restan 30 seg.
+
+- T Tienes 20 minutos para escapar.
+
+- C El teléfono se activa solo
+cuando hayas resuelto las 5
+preguntas.
+</value>
+  </data>
+  <data name="lblIntroduction.Text" xml:space="preserve">
+    <value>Eres Lucía Ríos, periodista de investigación. Recibiste una llamada
+anónima citándote en la mansión del Gobernador Don Aurelio
+Mendoza, quien desapareció misteriosamente tres días antes de
+asumir su segundo mandato.
+Al llegar al despacho, encontraste el lugar vacío... y escuchaste
+el clic de una cerradura detrás de ti. Alguien no quiere que salgas.
+Alguien sabe que estás demasiado cerca de la verdad. Sobre el
+escritorio está todo lo que necesitas.</value>
+  </data>
 </root>
